@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert world</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/fontawesome.min.js" integrity="sha512-c41hNYfKMuxafVVmh5X3N/8DiGFFAV/tU2oeNk+upk/dfDAdcbx5FrjFOkFhe4MOLaKlujjkyR4Yn7vImrXjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/regular.min.js" integrity="sha512-RNA9D6w1BGWFIVSGkGBsEEgVxoGNu7mtLZ+QQvwvoZHJHyoK19FF5R4xeM4AmdzreiwRzu8r0Xs89kFrOPh2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">DESSERT WORLD</div>
+            <div class="idk">
+                <div class="line"><div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="ourstory.html">OUR STORY</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="location.html">LOCATE US</a></li>
+                    <li><a href="index.html .footer">CONTACT NOW</a></li>
+                </ul>
+            </div>
+           
+        </nav>
+        <div class="textbox">
+            <h1>WELCOME TO DESSERT FACTORY!!!!!</h1>
+            <p>Dessert is like a hug that lasts longer</p>
+            <p>Indulge in sweetness, let your taste buds prevail,<br> Life's joys are best savored with a dessert sale.</p>
+            <p >Hungry? Why wait?</p>
+            <a href="menu.html" class="btn">ORDER NOW</a>
+        </div>
+    </section>
+
+<section class="recommend">
+    <h1>OUR GALLERY</h1>
+    <p>DISCOVER THE DELECIOUS DESSERT IN WORLD</p>
+
+    <div class="row">
+        <div class="cake">
+            <img src="images/cake.jpg" alt="">
+            <div class="layer">
+                <h3>CAKE</h3>
+            </div>
+        </div>
+        <div class="cake">
+            <img src="images/donut.jpg" alt="">
+            <div class="layer">
+                <h3>DONUT</h3>
+            </div>
+        </div>
+        <div class="cake">
+            <img src="images/muffins.jpg" alt="">
+            <div class="layer">
+                <h3>MUFFINS</h3>
+            </div>
+        </div>
+    </div>
+    <div class="rcmd2">
+        <div class="row">
+            <div class="cake">
+                <img src="images/macroons.jpg" alt="">
+                <div class="layer">
+                    <h3>MACROONS</h3>
+                </div>
+            </div>
+            <div class="cake">
+                <img src="images/pastries.jpg" alt="">
+                <div class="layer">
+                    <h3>PASTRIES</h3>
+                </div>
+            </div>
+            <div class="cake">
+                <img src="images/Bday cake.jpg" alt="">
+                <div class="layer">
+                    <h3>BIRTHDAY CAKES</h3>
+                </div>
+            </div>
+    </div>
+
+
+
+</section>
+
+<section class="chef">
+    <h1>MEET OUR CHEF'S</h1>
+    <p>THEY MADE THE WONDERFUL DESSERT</p>
+    <div class="chef1">
+        
+        <img src="images/men.jpg" alt="">
+        <br>
+        <p id="para"><b>PAUL BOCUSE,</b> The passion for dessert extends beyond the kitchen, as believes in sharing knowledge 
+            and  spreading the joy of baking.  Through interactive workshops and classes, imparts culinary 
+            wisdom to  aspiring dessert enthusiasts, empowering them to create their own edible masterpieces.
+        </p> 
+        
+    </div>
+    <div class="chef1">
+        <img class="imgs"src="images/women.jpg" alt="">
+        <p id="para"><B>CLAURA, </B>I accolades and recognition in the culinary world are a testament to their expertise and  commitment to excellence. But what truly sets our dessert chef apart is the genuine passion 
+             for making people smile through the magic of desserts. Each creation is infused with love and care, capturing the essence of joy and celebration.</p>
+           
+        
+    </div>
+</section>
+
+
+
+<section class="footer">
+    <h3>From us</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure ducimus quas fuga provident,
+         suscipit laborum ad accusantium <br> sed repudiandae sint, nemo exercitationem maiores debitis.</p>
+         <div class="contact">
+            <h3>CONTACT US</h3>
+            <p>PHONE NUMBER: +91 958515 12785</p>
+            <p>TELEPHONE: 044 1456 7412</p>
+            <p id="copy"> &#169 Made By Deeparishi || All Right Reserved</p>
+         </div>
+</section>
+
+
+
+
+
+
+
+    <script>
+        // JavaScript for navigation toggle
+window.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.idk');
+  var menu = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', function() {
+    if (menu.classList.contains('active')) {
+      menu.classList.remove('active');
+      menu.classList.add('reverse');
+    } else {
+      menu.classList.remove('reverse');
+      menu.classList.add('active');
+    }
+  });
+});
+
+       </script>    
+</body>
+</html>
